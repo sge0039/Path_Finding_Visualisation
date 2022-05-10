@@ -1,0 +1,104 @@
+/* Set default */
+
+:root {
+    --background: rgba(0, 214, 170, .85)
+}
+
+/* *, *::before, *::after {
+    box-sizing: border-box;
+} */
+
+body {
+    margin: 0;
+    background: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+
+header {
+    background: var(--background);
+    text-align: center;
+    /* padding: 1rem; */
+}
+
+header h1 {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+/* 
+    Nav
+*/
+
+nav {
+    /* text-align: center; */
+    margin: 0.5rem;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* nav li {
+    margin-left: 1em;
+} */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+/* 
+    Buttons
+*/
+
+input[type=button]:hover {
+    color: black;
+    /* background-color: #1abc9c; */
+    /* background-color: #34495e; */
+}
+
+.btn {
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.8rem 1rem;
+    background-color: transparent;
+}
+
+.center {
+    text-align: center;
+}
+
+#grid {
+    width: auto;
+    height: auto;
+    /* margin: 0 auto; */
+    display: inline-block;
+    border: 4px solid;
+}
+
+.row {
+    display: flex;
+}
+
+.row div {
+    border: 1px solid;
+    /* height: 4em;
+    width: 4em; */
+}
+
+.buttons {
+    margin: 1em;
+}
